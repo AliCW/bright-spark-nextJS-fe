@@ -1,3 +1,12 @@
+import Home from "./ui/home"
+
 export default function Page() {
-  return <h1>Bright Spark Next JS FE</h1>
+
+  return (
+    <main>
+      <div>
+        <Home />
+      </div>
+    </main>
+  )
 }
