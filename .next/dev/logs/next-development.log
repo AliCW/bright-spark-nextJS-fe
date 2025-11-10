@@ -1,0 +1,556 @@
+[00:00:00.771] Server  LOG      ✓ Ready in 496ms
+[00:00:10.380] Server  ERROR    ⨯ ./Documents/projects/spark/bright-spark-nextJS-fe/app/layout.tsx
+Specified module format (CommonJs) is not matching the module format of the source code (EcmaScript Modules)
+The CommonJs module format was specified in the package.json that is affecting this source file or by using an special extension, but Ecmascript import/export syntax is used in the source code.
+The module was automatically converted to an EcmaScript module, but that is in conflict with the specified module format. Either change the "type" field in the package.json or replace EcmaScript import/export syntax with CommonJs syntas in the source file.
+In some cases EcmaScript import/export syntax is added by an transform and isn't actually part of the source code. In these cases revisit transformation options to inject the correct syntax.
+
+
+
+./Documents/projects/spark/bright-spark-nextJS-fe/app/page.tsx
+Specified module format (CommonJs) is not matching the module format of the source code (EcmaScript Modules)
+The CommonJs module format was specified in the package.json that is affecting this source file or by using an special extension, but Ecmascript import/export syntax is used in the source code.
+The module was automatically converted to an EcmaScript module, but that is in conflict with the specified module format. Either change the "type" field in the package.json or replace EcmaScript import/export syntax with CommonJs syntas in the source file.
+In some cases EcmaScript import/export syntax is added by an transform and isn't actually part of the source code. In these cases revisit transformation options to inject the correct syntax.
+
+
+[00:00:11.909] Browser ERROR   uncaughtError: Error: ./Documents/projects/spark/bright-spark-nextJS-fe/app/layout.tsx
+Specified module format (CommonJs) is not matching the module format of the source code (EcmaScript Modules)
+The CommonJs module format was specified in the package.json that is affecting this source file or by using an special extension, but Ecmascript import/export syntax is used in the source code.
+The module was automatically converted to an EcmaScript module, but that is in conflict with the specified module format. Either change the "type" field in the package.json or replace EcmaScript import/export syntax with CommonJs syntas in the source file.
+In some cases EcmaScript import/export syntax is added by an transform and isn't actually part of the source code. In these cases revisit transformation options to inject the correct syntax.
+
+
+[00:00:11.909] Browser ERROR   ./Documents/projects/spark/bright-spark-nextJS-fe/app/layout.tsx
+Specified module format (CommonJs) is not matching the module format of the source code (EcmaScript Modules)
+The CommonJs module format was specified in the package.json that is affecting this source file or by using an special extension, but Ecmascript import/export syntax is used in the source code.
+The module was automatically converted to an EcmaScript module, but that is in conflict with the specified module format. Either change the "type" field in the package.json or replace EcmaScript import/export syntax with CommonJs syntas in the source file.
+In some cases EcmaScript import/export syntax is added by an transform and isn't actually part of the source code. In these cases revisit transformation options to inject the correct syntax.
+[00:00:11.909] Browser ERROR   ./Documents/projects/spark/bright-spark-nextJS-fe/app/page.tsx
+Specified module format (CommonJs) is not matching the module format of the source code (EcmaScript Modules)
+The CommonJs module format was specified in the package.json that is affecting this source file or by using an special extension, but Ecmascript import/export syntax is used in the source code.
+The module was automatically converted to an EcmaScript module, but that is in conflict with the specified module format. Either change the "type" field in the package.json or replace EcmaScript import/export syntax with CommonJs syntas in the source file.
+In some cases EcmaScript import/export syntax is added by an transform and isn't actually part of the source code. In these cases revisit transformation options to inject the correct syntax.
+[00:00:12.139] Browser ERROR   ./Documents/projects/spark/bright-spark-nextJS-fe/app/layout.tsx
+Specified module format (CommonJs) is not matching the module format of the source code (EcmaScript Modules)
+The CommonJs module format was specified in the package.json that is affecting this source file or by using an special extension, but Ecmascript import/export syntax is used in the source code.
+The module was automatically converted to an EcmaScript module, but that is in conflict with the specified module format. Either change the "type" field in the package.json or replace EcmaScript import/export syntax with CommonJs syntas in the source file.
+In some cases EcmaScript import/export syntax is added by an transform and isn't actually part of the source code. In these cases revisit transformation options to inject the correct syntax.
+[00:00:12.139] Browser ERROR   ./Documents/projects/spark/bright-spark-nextJS-fe/app/page.tsx
+Specified module format (CommonJs) is not matching the module format of the source code (EcmaScript Modules)
+The CommonJs module format was specified in the package.json that is affecting this source file or by using an special extension, but Ecmascript import/export syntax is used in the source code.
+The module was automatically converted to an EcmaScript module, but that is in conflict with the specified module format. Either change the "type" field in the package.json or replace EcmaScript import/export syntax with CommonJs syntas in the source file.
+In some cases EcmaScript import/export syntax is added by an transform and isn't actually part of the source code. In these cases revisit transformation options to inject the correct syntax.
+[00:33:03.283] Server  ERROR    ⨯ ./Documents/projects/spark/bright-spark-nextJS-fe/app/layout.tsx:1:1
+Module not found: Can't resolve '@app/ui/nav'
+> 1 | import Nav from "@app/ui/nav";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 |
+  4 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:03.285] Server  ERROR    ⨯ ./Documents/projects/spark/bright-spark-nextJS-fe/app/layout.tsx:1:1
+Module not found: Can't resolve '@app/ui/nav'
+> 1 | import Nav from "@app/ui/nav";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 |
+  4 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:03.288] Server  ERROR    ⨯ ./Documents/projects/spark/bright-spark-nextJS-fe/app/layout.tsx:1:1
+Module not found: Can't resolve '@app/ui/nav'
+> 1 | import Nav from "@app/ui/nav";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 |
+  4 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:03.288] Server  ERROR    ⨯ ./Documents/projects/spark/bright-spark-nextJS-fe/app/layout.tsx:1:1
+Module not found: Can't resolve '@app/ui/nav'
+> 1 | import Nav from "@app/ui/nav";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 |
+  4 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:03.289] Server  ERROR    ⨯ ./Documents/projects/spark/bright-spark-nextJS-fe/app/layout.tsx:1:1
+Module not found: Can't resolve '@app/ui/nav'
+> 1 | import Nav from "@app/ui/nav";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 |
+  4 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:03.290] Server  ERROR    ⨯ ./Documents/projects/spark/bright-spark-nextJS-fe/app/layout.tsx:1:1
+Module not found: Can't resolve '@app/ui/nav'
+> 1 | import Nav from "@app/ui/nav";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 |
+  4 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:03.291] Server  ERROR    ⨯ ./Documents/projects/spark/bright-spark-nextJS-fe/app/layout.tsx:1:1
+Module not found: Can't resolve '@app/ui/nav'
+> 1 | import Nav from "@app/ui/nav";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 |
+  4 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:03.291] Server  ERROR    ⨯ ./Documents/projects/spark/bright-spark-nextJS-fe/app/layout.tsx:1:1
+Module not found: Can't resolve '@app/ui/nav'
+> 1 | import Nav from "@app/ui/nav";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 |
+  4 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:03.665] Browser ERROR   ./Documents/projects/spark/bright-spark-nextJS-fe/app/layout.tsx:1:1
+Module not found: Can't resolve '@app/ui/nav'
+> 1 | import Nav from "@app/ui/nav";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 |
+  4 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:33:14.631] Server  ERROR    ⨯ ./Documents/projects/spark/bright-spark-nextJS-fe/app/layout.tsx:1:1
+Module not found: Can't resolve '@/app/ui/nav'
+> 1 | import Nav from "@/app/ui/nav";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 |
+  4 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:14.632] Server  ERROR    ⨯ ./Documents/projects/spark/bright-spark-nextJS-fe/app/layout.tsx:1:1
+Module not found: Can't resolve '@/app/ui/nav'
+> 1 | import Nav from "@/app/ui/nav";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 |
+  4 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:14.634] Server  ERROR    ⨯ ./Documents/projects/spark/bright-spark-nextJS-fe/app/layout.tsx:1:1
+Module not found: Can't resolve '@/app/ui/nav'
+> 1 | import Nav from "@/app/ui/nav";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 |
+  4 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:14.635] Server  ERROR    ⨯ ./Documents/projects/spark/bright-spark-nextJS-fe/app/layout.tsx:1:1
+Module not found: Can't resolve '@/app/ui/nav'
+> 1 | import Nav from "@/app/ui/nav";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 |
+  4 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:14.636] Server  ERROR    ⨯ ./Documents/projects/spark/bright-spark-nextJS-fe/app/layout.tsx:1:1
+Module not found: Can't resolve '@/app/ui/nav'
+> 1 | import Nav from "@/app/ui/nav";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 |
+  4 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:14.636] Server  ERROR    ⨯ ./Documents/projects/spark/bright-spark-nextJS-fe/app/layout.tsx:1:1
+Module not found: Can't resolve '@/app/ui/nav'
+> 1 | import Nav from "@/app/ui/nav";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 |
+  4 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:14.637] Server  ERROR    ⨯ ./Documents/projects/spark/bright-spark-nextJS-fe/app/layout.tsx:1:1
+Module not found: Can't resolve '@/app/ui/nav'
+> 1 | import Nav from "@/app/ui/nav";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 |
+  4 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:14.638] Server  ERROR    ⨯ ./Documents/projects/spark/bright-spark-nextJS-fe/app/layout.tsx:1:1
+Module not found: Can't resolve '@/app/ui/nav'
+> 1 | import Nav from "@/app/ui/nav";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 |
+  4 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:14.772] Browser ERROR   ./Documents/projects/spark/bright-spark-nextJS-fe/app/layout.tsx:1:1
+Module not found: Can't resolve '@/app/ui/nav'
+> 1 | import Nav from "@/app/ui/nav";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 |
+  4 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:33:34.395] Server  LOG      ✓ Compiled in 1534ms
+[00:33:35.400] Browser ERROR   In HTML, %s cannot be a child of <%s>.%s
+This will cause a hydration error.%s <body> div  
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:"/", ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Documents...">
+                      <SegmentTrieNode>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+>                         <div>
+                            <div>
+>                           <body>
+                  ...
+
+[00:33:36.535] Browser ERROR   In HTML, %s cannot be a child of <%s>.%s
+This will cause a hydration error.%s <div> html  
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:"/", ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Documents...">
+                      <SegmentTrieNode>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+>                       <html lang="en">
+>                         <div>
+                  ...
+
+[00:33:40.201] Browser ERROR   In HTML, %s cannot be a child of <%s>.%s
+This will cause a hydration error.%s <div> html  
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Documents...">
+                      <SegmentTrieNode>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+>                       <html lang="en">
+>                         <div>
+                  ...
+
+[00:33:49.333] Browser ERROR   In HTML, %s cannot be a child of <%s>.%s
+This will cause a hydration error.%s <div> html  
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/collabora..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Documents...">
+                      <SegmentTrieNode>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+>                       <html lang="en">
+>                         <div>
+                  ...
+
+[00:33:50.544] Browser ERROR   In HTML, %s cannot be a child of <%s>.%s
+This will cause a hydration error.%s <div> html  
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Documents...">
+                      <SegmentTrieNode>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+>                       <html lang="en">
+>                         <div>
+                  ...
+
+[00:34:28.316] Browser ERROR   In HTML, %s cannot be a child of <%s>.%s
+This will cause a hydration error.%s <div> html  
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/events" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Documents...">
+                      <SegmentTrieNode>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+>                       <html lang="en">
+>                         <div>
+                  ...
+
+[00:34:32.413] Browser ERROR   In HTML, %s cannot be a child of <%s>.%s
+This will cause a hydration error.%s <div> html  
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/events" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Documents...">
+                      <SegmentTrieNode>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+>                       <html lang="en">
+>                         <div>
+                  ...
+
+[00:34:33.701] Browser ERROR   In HTML, %s cannot be a child of <%s>.%s
+This will cause a hydration error.%s <div> html  
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Documents...">
+                      <SegmentTrieNode>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+>                       <html lang="en">
+>                         <div>
+                  ...
+
+[00:35:17.504] Browser ERROR   In HTML, %s cannot be a child of <%s>.%s
+This will cause a hydration error.%s <div> html  
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/collabora..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Documents...">
+                      <SegmentTrieNode>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+>                       <html lang="en">
+>                         <div>
+                  ...
+
+[00:35:19.179] Browser ERROR   In HTML, %s cannot be a child of <%s>.%s
+This will cause a hydration error.%s <div> html  
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Documents...">
+                      <SegmentTrieNode>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+>                       <html lang="en">
+>                         <div>
+                  ...
+

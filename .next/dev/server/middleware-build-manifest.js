@@ -1,0 +1,51 @@
+globalThis.__BUILD_MANIFEST = {
+  "pages": {
+    "/_app": [
+      "static/chunks/90bda_next_dist_compiled_01eb50a1._.js",
+      "static/chunks/90bda_next_dist_shared_lib_66824b8c._.js",
+      "static/chunks/90bda_next_dist_client_4733c272._.js",
+      "static/chunks/90bda_next_dist_20705a06._.js",
+      "static/chunks/90bda_next_app_4af291e4.js",
+      "static/chunks/[next]_entry_page-loader_ts_3fff8e0a._.js",
+      "static/chunks/90bda_react-dom_6ff20cbf._.js",
+      "static/chunks/90bda_5e11ab9b._.js",
+      "static/chunks/[root-of-the-server]__a0bb0861._.js",
+      "static/chunks/Documents_projects_spark_bright-spark-nextJS-fe_pages__app_2da965e7._.js",
+      "static/chunks/turbopack-Documents_projects_spark_bright-spark-nextJS-fe_pages__app_f9c2e3f2._.js"
+    ],
+    "/_error": [
+      "static/chunks/90bda_next_dist_compiled_01eb50a1._.js",
+      "static/chunks/90bda_next_dist_shared_lib_96365a23._.js",
+      "static/chunks/90bda_next_dist_client_4733c272._.js",
+      "static/chunks/90bda_next_dist_f024419a._.js",
+      "static/chunks/90bda_next_error_3588ffcb.js",
+      "static/chunks/[next]_entry_page-loader_ts_6db6da20._.js",
+      "static/chunks/90bda_react-dom_6ff20cbf._.js",
+      "static/chunks/90bda_5e11ab9b._.js",
+      "static/chunks/[root-of-the-server]__483a1381._.js",
+      "static/chunks/Documents_projects_spark_bright-spark-nextJS-fe_pages__error_2da965e7._.js",
+      "static/chunks/turbopack-Documents_projects_spark_bright-spark-nextJS-fe_pages__error_8729b016._.js"
+    ]
+  },
+  "devFiles": [],
+  "polyfillFiles": [
+    "static/chunks/90bda_next_dist_build_polyfills_polyfill-nomodule.js"
+  ],
+  "lowPriorityFiles": [],
+  "rootMainFiles": [
+    "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_bc6ee07a._.js",
+    "static/chunks/90bda_next_dist_compiled_react-dom_c24fac2a._.js",
+    "static/chunks/90bda_next_dist_compiled_react-server-dom-turbopack_4c8075e9._.js",
+    "static/chunks/90bda_next_dist_compiled_next-devtools_index_e04e1220.js",
+    "static/chunks/90bda_next_dist_compiled_f7bab97f._.js",
+    "static/chunks/90bda_next_dist_client_7dda56cb._.js",
+    "static/chunks/90bda_next_dist_324f7344._.js",
+    "static/chunks/90bda_@swc_helpers_cjs_83fecb45._.js",
+    "static/chunks/Documents_projects_spark_bright-spark-nextJS-fe_a0ff3932._.js",
+    "static/chunks/turbopack-Documents_projects_spark_bright-spark-nextJS-fe_8d14ac48._.js"
+  ]
+};
+globalThis.__BUILD_MANIFEST.lowPriorityFiles = [
+"/static/" + process.env.__NEXT_BUILD_ID + "/_buildManifest.js",
+"/static/" + process.env.__NEXT_BUILD_ID + "/_ssgManifest.js"
+];

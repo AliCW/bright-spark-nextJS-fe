@@ -1,0 +1,36 @@
+{
+  "name": "bright-spark-nextjs-fe",
+  "version": "1.0.0",
+  "description": "nextJS-fe",
+  "homepage": "https://github.com/AliCW/bright-spark-nextJS-fe#readme",
+  "bugs": {
+    "url": "https://github.com/AliCW/bright-spark-nextJS-fe/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AliCW/bright-spark-nextJS-fe.git"
+  },
+  "license": "ISC",
+  "author": "AliCW",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "next": "^16.0.1",
+    "react": "^19.2.0",
+    "react-bootstrap": "^2.10.10",
+    "react-dom": "^19.2.0",
+    "react-icons": "^5.5.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.2",
+    "typescript": "5.9.3"
+  }
+}
