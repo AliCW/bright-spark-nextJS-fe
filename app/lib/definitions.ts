@@ -1,4 +1,4 @@
-export type RecentWorks = {
+interface RecentWorks {
     captured: string,
     collaboration: string
     event: string,
