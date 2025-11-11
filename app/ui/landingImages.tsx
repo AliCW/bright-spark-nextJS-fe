@@ -1,19 +1,23 @@
 import LandingCarousel from "../ui/landingCarousel";
+import { getAllCarouselImages } from "../lib/data";
 import { findYears, formatRecentWork, formatEventAndCollaborationNames } from "../lib/utils";
 import Link from "next/link";
 
-export default function LandingImages({data}: {data: object}){
+export default async function LandingImages({ data }: { data: object }){
+    
+    const carouselImages = await getAllCarouselImages();
 
     if(!data){
         return (
             <div>
                 <p>Loading...</p>
             </div>
-        )
-    }
+        );
+    };
 
     return (
         <div>
+            <LandingCarousel images={carouselImages.data.data}/>
             <p>See our latest collaborations from {findYears()}</p>
             <div>
                 {formatRecentWork(data).map((work) => {
@@ -36,5 +40,5 @@ export default function LandingImages({data}: {data: object}){
                 })}
             </div>
         </div>
-    )
+    );
 };

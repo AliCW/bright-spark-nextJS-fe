@@ -1,5 +1,4 @@
-
-import { getRecentWorks } from "../lib/data"
+import { getRecentWorks } from "../lib/data";
 import LandingImages from "./landingImages";
 
 
