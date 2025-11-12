@@ -1,10 +1,18 @@
-export default function Events(){
+import { getAllEventThumbnails } from "../lib/data"
+import EventCard from "../ui/events/eventCard"
+
+export default async function Events(){
+
+    const eventThumbnails = await getAllEventThumbnails();
+
     return (
-        <main>
+
 
         <div>
-            <p>Behold my events!</p>
+            <h1>Events</h1>
+            <p>The range of different types of events is extensive. We aim to use pyrotechnics as a tool to create dynamic moments that have a great impact on the audience.</p>
+            <EventCard thumbnails={eventThumbnails.data}/>
         </div>
-        </main>
+
     )
 }

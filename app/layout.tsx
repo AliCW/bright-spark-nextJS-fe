@@ -5,9 +5,9 @@ export default function RootLayout({children }: { children: React.ReactNode}) {
     <html lang="en">
         
         <body>
+          <Nav />
           {children}
 
-          <Nav />
 
         </body>
     </html>

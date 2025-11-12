@@ -1,18 +1,9 @@
 import { getRecentWorks } from "../lib/data";
 import LandingImages from "./landingImages";
 
-
 export default async function Home(){
    
     const recentWorks = await getRecentWorks();
-
-    // if(isLoading) {
-    //     return (
-    //         <p>Loading...</p>
-    //     );
-    // };
-
-    console.log(recentWorks.data, "recentWorks<<<")
 
     return (
     <div className="home">
@@ -21,7 +12,6 @@ export default async function Home(){
             <div className="landing">
                 <LandingImages data={recentWorks.data.data}/>
             </div>
-            {/* <EmbeddedYoutube embedId="NdAPKoRJEP8"/> */}
     </div>
     );
 };
