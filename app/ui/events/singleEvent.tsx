@@ -2,7 +2,7 @@ import { getSingleEvent, getEventImages } from "../../lib/data";
 import { formatEventAndCollaborationNames } from "../../lib/utils";
 import Carousel from "../carousel";
 
-export default async function SingleEvent({name}: {name: string}){
+export default async function SingleEvent( { name } : { name : string } ){
 
     const fetchSingleEvent = await getSingleEvent(name);
     const fetchEventImages = await getEventImages(name);

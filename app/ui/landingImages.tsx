@@ -3,7 +3,7 @@ import { getAllCarouselImages } from "../lib/data";
 import { findYears, formatRecentWork, formatEventAndCollaborationNames } from "../lib/utils";
 import Link from "next/link";
 
-export default async function LandingImages({ data }: { data: object }){
+export default async function LandingImages( { data }: { data: object } ){
     
     const carouselImages = await getAllCarouselImages();
 

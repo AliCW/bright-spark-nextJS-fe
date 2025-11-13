@@ -5,13 +5,20 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 
-export default function EventCard( { thumbnails } : any ){ 
+export default function EventCard( { data } : { data : object[] } ){ 
 
     return (
         <div>
             <Container>
                 <Row>
-                    {[...thumbnails.data].map((row, index) => {
+                    {[...data].map((row: {   
+                        event: string,
+                        event_thumb: number,
+                        image_id: number,
+                        raw_link: string,
+                    }, 
+                        index: number
+                    ) => {
                         return (
                             <Col key={index}>
                                 <Link
