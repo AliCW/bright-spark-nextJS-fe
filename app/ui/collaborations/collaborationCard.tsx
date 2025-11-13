@@ -4,27 +4,27 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-
-export default function EventCard( { data } : { data : object[] } ){ 
+export default function CollaborationCard({ data }: {data: object[]}){
 
     return (
         <div>
+
             <Container>
                 <Row>
-                    {[...data].map((row: {   
-                        event: string,
-                        event_thumb: boolean,
+                    {[...data].map((row: {
+                        collaboration: string,
+                        collaboration_thumb: boolean,
                         image_id: number,
-                        raw_link: string,
-                    }, 
+                        raw_link: string
+                    },
                         index: number
                     ) => {
                         return (
                             <Col key={index}>
                                 <Link
-                                    href={`/events/${row.event}`}
+                                    href={`/collaborations/${row.collaboration}`}
                                 >
-                                    <p>{formatEventAndCollaborationNames(row.event)}</p>
+                                    <p>{formatEventAndCollaborationNames(row.collaboration)}</p>
                                     <img src={row.raw_link} width="600" height="750"/>
                                 </Link>
                             </Col>
@@ -32,6 +32,7 @@ export default function EventCard( { data } : { data : object[] } ){
                     })}
                 </Row>
             </Container>
+
         </div>
     )
 }

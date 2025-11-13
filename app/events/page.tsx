@@ -1,7 +1,7 @@
 import { getAllEventThumbnails } from "../lib/data"
 import EventCard from "../ui/events/eventCard"
 
-export default async function Events(){
+export default async function Page(){
 
     const eventThumbnails = await getAllEventThumbnails();
 

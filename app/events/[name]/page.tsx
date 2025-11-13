@@ -1,5 +1,3 @@
-
-
 import SingleEvent from "../../ui/events/singleEvent";
 
 export default async function Page({params}: {params: Promise<{ name: string }>}) {
@@ -10,5 +8,5 @@ export default async function Page({params}: {params: Promise<{ name: string }>}
         <div>
             <SingleEvent name={name}/>
         </div>
-    )
-}
+    );
+};
