@@ -1,6 +1,0 @@
-[00:00:00.723] Server  LOG      ✓ Ready in 460ms
-[00:00:07.204] Server  LOG      ○ Compiling / ...
-[00:00:08.002] Server  LOG     fetching
-[00:00:08.576] Server  LOG     fetched
-[00:00:08.578] Server  LOG     {} "recentWorks<<<"
-[00:00:08.582] Server  LOG     [{...},{...},{...},{...},{...}] "works here"

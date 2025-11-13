@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///home/ali/Documents/projects/spark/bright-spark-nextJS-fe/app/%28overview%29/page.tsx"],"sourcesContent":["import Nav from \"../app/ui/nav\";\n\n\nexport default function Page() {\n\n  return (\n    <div>\n        <h1>Bright Spark Next JS FE</h1>\n        <Nav />\n\n    </div>\n  )\n}"],"names":[],"mappings":";;;;;;;;;;;;AAGe,SAAS;IAEtB,qBACE,mTAAC;;0BACG,mTAAC;0BAAG;;;;;;0BACJ,mTAAC;;;;;;;;;;;AAIT","debugId":null}}]
-}

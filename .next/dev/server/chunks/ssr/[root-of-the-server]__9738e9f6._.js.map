@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///home/ali/Documents/projects/spark/bright-spark-nextJS-fe/app/page.tsx"],"sourcesContent":["import Nav from \"./ui/nav\";\nimport Home from \"./ui/home\"\n\nexport default function Page() {\n\n  return (\n    <main>\n      <div>\n        <h1>Bright Spark Fireworks</h1>\n        <p>Bright Spark Fireworks is an arts-based pyrotechnics company that makes unique work for a wide spectrum of clients. We also work in collaboration with other outdoor artists and festivals to enhance and support artistic projects and performances.</p>\n        {/* <Home /> */}\n      </div>\n    </main>\n  )\n}"],"names":[],"mappings":";;;;;;AAGe,SAAS;IAEtB,qBACE,mTAAC;kBACC,cAAA,mTAAC;;8BACC,mTAAC;8BAAG;;;;;;8BACJ,mTAAC;8BAAE;;;;;;;;;;;;;;;;;AAKX","debugId":null}}]
-}
