@@ -1,16 +1,13 @@
 "use client"
 import { useState } from "react";
-
-import Lightbox from "yet-another-react-lightbox";
-import Captions from "yet-another-react-lightbox/plugins/captions";
-import Fullscreen from "yet-another-react-lightbox/plugins/fullscreen";
-import Slideshow from "yet-another-react-lightbox/plugins/slideshow";
-import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
-import Video from "yet-another-react-lightbox/plugins/video";
-import Zoom from "yet-another-react-lightbox/plugins/zoom";
-// import "yet-another-react-lightbox/plugins/captions.css";
-// import "yet-another-react-lightbox/plugins/thumbnails.css";
-
+import Lightbox,  { Plugin } from "yet-another-react-lightbox";
+import { Fullscreen } from "yet-another-react-lightbox/plugins/fullscreen";
+import { Thumbnails } from "yet-another-react-lightbox/plugins/thumbnails";
+import "yet-another-react-lightbox/plugins/thumbnails.css";
+import "yet-another-react-lightbox/styles.css";
+//import Captions from "yet-another-react-lightbox/plugins/captions";
+//import Slideshow from "yet-another-react-lightbox/plugins/slideshow";
+//import Zoom from "yet-another-react-lightbox/plugins/zoom";
 
 
 export default function Carousel( images : { images : object[] } ){
@@ -35,7 +32,7 @@ export default function Carousel( images : { images : object[] } ){
                             "title": image.event
                         }
                 })}
-                plugins={[Fullscreen, Video]}
+                plugins={[Fullscreen as Plugin, Thumbnails]}
             
             >
                 
