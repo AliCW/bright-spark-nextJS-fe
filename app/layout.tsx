@@ -1,4 +1,5 @@
 import Nav from "./ui/nav";
+import './globals.css'
 
 export default function RootLayout( { children } : { children : React.ReactNode } ) {
   return (
