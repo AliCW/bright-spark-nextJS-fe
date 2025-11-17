@@ -4,7 +4,7 @@ import Carousel from "../carousel";
 
 export default async function SingleCollaboration( { name } : { name : string } ){
 
-    const fetchSingleCollaboration = await getSingleCollaboration(name); //cant we just get this from PARAMS????
+    const fetchSingleCollaboration = await getSingleCollaboration(name);
     const fetchCollaborationImages = await getCollaborationImages(name);
 
     return (

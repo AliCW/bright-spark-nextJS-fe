@@ -3,7 +3,7 @@ import { getAllCarouselImages } from "../lib/data";
 import { findYears, formatRecentWork, formatEventAndCollaborationNames } from "../lib/utils";
 import Link from "next/link";
 
-export default async function LandingImages( { data }: { data: object } ){
+export default async function LandingImages( { data }: { data: object[] } ){
     
     const carouselImages = await getAllCarouselImages();
 
@@ -20,7 +20,11 @@ export default async function LandingImages( { data }: { data: object } ){
             <LandingCarousel images={carouselImages.data.data}/>
             <p>See our latest collaborations from {findYears()}</p>
             <div>
-                {formatRecentWork(data).map((work) => {
+                {formatRecentWork(data).map((work: {
+                    captured: string,
+                    collaboration: string,
+                    event: string,
+                }) => {
                     return (
                         <div key={work.captured}>
                             <Link
